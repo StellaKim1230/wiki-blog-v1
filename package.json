@@ -1,0 +1,16 @@
+{
+  "name": "stella-wiki",
+  "version": "1.0.0",
+  "description": "Stella wiki",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "predeploy": "npm run build",
+    "deploy": "firebase deploy"
+  },
+  "author": "stella.kim.public@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^0.14.8"
+  }
+}
