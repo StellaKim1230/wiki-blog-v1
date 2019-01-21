@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "predeploy": "npm run build",
-    "deploy": "firebase deploy"
+    "predeploy": "npm run build"
   },
   "author": "stella.kim.public@gmail.com",
   "license": "ISC",

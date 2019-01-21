@@ -1,5 +1,6 @@
 const sidebarConfig = [
   ['/intro', 'Intro'],
+  ['/si-escape', 'SI 탈출기'],
   {
     title: 'CleanCode',
     children: [
