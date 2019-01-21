@@ -4,8 +4,7 @@
   "description": "Stella wiki",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "predeploy": "npm run build"
+    "build": "vuepress build docs"
   },
   "author": "stella.kim.public@gmail.com",
   "license": "ISC",
