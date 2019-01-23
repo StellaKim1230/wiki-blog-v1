@@ -1,20 +1,23 @@
-<!-- # home: false
-# heroText: Welcome Jieun's wiki
-# tagline: Jieun's 공부 노트와 일상생활
-# actionText: Get Started→
-# actionLink: /intro
-# features:
-# - title: About me
-#   details: I'm Frontend engineer who interested in writing solid and beautiful code and TDD. If you will discuss technology and so on, please do not hesitate to send an e-mail to stella.kim.public@gmail.com.
-# - title: Contents
-#   details: Development knowledge and Everyday life.
-# - title: Vue-powered Site
-#   details: This site has made by vuepress.
-# - title: Everyday life
-#   details: Hobby, Travel, Etc.
-# footer: MIT Licensed | Copyright © 2018-present Evan You -->
-* I'm Frontend Engineer.
-* The main language uses JavaScript and is developed as Vue.js.
-* This wiki posts development knowledge and daily life.
-* The area of ​​interest in development is TDD, FP, Etc.
-* This site has made by vuepress.
+---
+title: Introduce Stella wiki
+meta:
+  - name: description
+    content: FE개발자 stella와 wiki에 대한 설명입니다.
+  - property: og:title
+    content: Introduce Stella wiki
+  - property: og:description
+    content: FE개발자 stella와 wiki에 대한 설명입니다.
+---
+
+## Introduce
+:email: stella.kim.public@gmail.com  
+:computer: [github](https://github.com/StellaKim1230)  
+
+SI탈출 후 FE개발자로 시작한지 얼마 안 되었지만, 항상 코드 품질을 높이기 위해 고민하고 노력합니다.
+
+관심분야 : Functional Programming, docker, Typescript, TDD, etc.
+
+## Contents
+  ### SI 탈출
+  [si 탈출](si-escape.md)
+  ### Clean Code
