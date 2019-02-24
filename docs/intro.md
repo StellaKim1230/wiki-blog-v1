@@ -19,4 +19,3 @@ SI탈출 후 FE개발자로 시작한지 얼마 안 되었지만, 항상 코드 
 
 ## Contents
 ### SI 탈출기
-### Clean Code
