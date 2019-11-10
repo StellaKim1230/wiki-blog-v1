@@ -4,9 +4,11 @@
   "description": "Stella wiki",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "predeploy": "yarn build",
+    "deploy": "firebase deploy"
   },
-  "author": "stella.kim.public@gmail.com",
+  "author": "stellakim1230@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^0.14.8"
