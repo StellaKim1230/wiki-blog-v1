@@ -10,10 +10,10 @@
   },
   "author": "stellakim1230@gmail.com",
   "license": "ISC",
-  "devDependencies": {
-    "vuepress": "^0.14.8"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "flow-bin": "^0.93.0"
-  }
+    "flow-bin": "^0.93.0",
+    "vuepress": "^1.2.0"
+  },
+  "main": "theme/Layout"
 }
