@@ -9,5 +9,5 @@ module.exports = {
     sidebar: sidebarConfig,
     displayAllHeaders: false,
   },
-  ga: '214944519'
+  ga: 'G-693Q61XDK8'
 }
