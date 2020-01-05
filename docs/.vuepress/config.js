@@ -9,5 +9,12 @@ module.exports = {
     sidebar: sidebarConfig,
     displayAllHeaders: false,
   },
-  ga: 'G-693Q61XDK8'
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'G-693Q61XDK8'
+      }
+    ]
+  ]
 }

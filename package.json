@@ -10,7 +10,9 @@
   },
   "author": "stellakim1230@gmail.com",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.2.0"
+  },
   "dependencies": {
     "flow-bin": "^0.93.0",
     "vuepress": "^1.2.0"
