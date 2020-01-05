@@ -8,5 +8,6 @@ module.exports = {
     nav: navConfig,
     sidebar: sidebarConfig,
     displayAllHeaders: false,
-  }
+  },
+  ga: '214944519'
 }
