@@ -6,8 +6,11 @@ on:
       - master
 
 jobs:
-  deploy:
+  build:
+
+    runs-on: ubuntu-latest
+
     steps:
-    - name: yarn deploy
+    - name: deploy
       run:
         yarn deploy
