@@ -6,14 +6,18 @@ on:
       - master
 
 jobs:
-  build:
-
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    - uses: actions/setup-node@v1
+    - uses: actions/checkout@master
+    - name: install dependency
+      run: yarn
+    - name: build
+      run: yarn build
+    - name: deploy to firebase
+      uses: w9jds/firebase-action@master
       with:
-        node-version: 10
-    - name: deploy
-      run: yarn deploy
+        args: deploy --only hosting --project=stella-wiki-blog
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
