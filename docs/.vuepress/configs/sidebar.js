@@ -4,7 +4,7 @@ const sidebarConfig = [
   {
     title: 'Programming',
     children: [
-      ['/Programming/01.react-naming-rule', '1. 이름 규칙'],
+      ['/Programming/01.description-react-structure', 'Description of React Structure'],
     ]
   }
 ]
