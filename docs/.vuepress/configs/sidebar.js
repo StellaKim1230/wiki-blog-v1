@@ -8,7 +8,7 @@ const sidebarConfig = [
     ],
   },
   {
-    title: 'BookReport',
+    title: 'Book reports',
     children: [['/BookReport/소프트웨어장인', '소프트웨어장인']],
   },
 ]
