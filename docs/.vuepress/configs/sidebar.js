@@ -4,9 +4,13 @@ const sidebarConfig = [
   {
     title: 'Programming',
     children: [
-      ['/Programming/01.description-react-structure', 'Description of React Structure'],
-    ]
-  }
+      ['/Programming/01.description-react-structure', 'React Structure'],
+    ],
+  },
+  {
+    title: 'BookReport',
+    children: [['/BookReport/소프트웨어장인', '소프트웨어장인']],
+  },
 ]
 
 module.exports = sidebarConfig
