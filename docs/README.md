@@ -10,16 +10,22 @@ meta:
 ---
 
 ## Introduce
+
 :email: stellakim1230@gmail.com  
-:computer: [github](https://github.com/StellaKim1230)  
+:computer: [github](https://github.com/StellaKim1230)
 
-SI탈출 후 FE개발자로 시작한지 얼마 안 되었지만, 항상 코드 품질을 높이기 위해 고민하고 노력합니다.
+SI에서 개발을 시작하였지만, 지금은 FE개발자로 일을 하고 있으며 항상 코드 품질을 높이기 위해 고민하고 노력합니다.
 
-### Projects
-1. 트루포스
-2. 내곁에 김사부(앱)
-3. [트루쿠폰 관리자 사이트](https://partner.truecoupon.io)
-4. 트루오더(앱)
-5. [Magic Table](https://magictbl.com/)
-6. [DAISY](https://daisy.newsjel.ly/enterprise/)
-7. [MTUI](https://newsjelly.github.io/mtui/#/)
+- Jul 2020 ~ Sotfware engineer at Cobalt.
+
+- Feb 2019 ~ Jul 2020 Frontend engineer at Honbabin.
+
+  - [트루쿠폰 관리자 사이트](https://partner.truecoupon.io)
+  - 트루오더(앱)
+  - 내곁에 김사부(앱)
+  - 트루포스(포스)
+
+- Apr 2018 ~ Jan 2019 Frontend engineer at NewsJelly.
+  - [Magic Table](https://magictbl.com/)
+  - [DAISY](https://daisy.newsjel.ly/enterprise/)
+  - [MTUI](https://newsjelly.github.io/mtui/#/)
