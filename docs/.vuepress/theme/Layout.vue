@@ -1,16 +1,35 @@
 <template>
   <ParentLayout>
-    <Disqus slot="page-bottom" class="content" />
+    <Disqus slot="page-bottom" v-if="this.$frontmatter.disqus" class="content" />
+    <!-- <template v-if="!$page.frontmatter.disableDisqus" #page-bottom>
+      <Disqus />
+    </template>-->
   </ParentLayout>
 </template>
 
 <script>
-import ParentLayout from "@parent-theme/layouts/Layout.vue";
-import Disqus from "../components/Disqus";
+import ParentLayout from "@parent-theme/layouts/Layout";
+
 export default {
   components: {
-    ParentLayout,
-    Disqus
+    ParentLayout
+  },
+  watch: {
+    $route(to, from) {
+      if (to.path !== from.path) {
+        if (typeof window !== "undefined" && window.DISQUS) {
+          window.DISQUS.reset({ reload: true });
+        }
+      }
+    }
   }
 };
 </script>
+
+<style lang="css" scoped>
+#disqus_thread {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 2rem 2.5rem;
+}
+</style>
