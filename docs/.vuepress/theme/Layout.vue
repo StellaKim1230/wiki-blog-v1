@@ -1,28 +1,27 @@
 <template>
   <ParentLayout>
     <Disqus slot="page-bottom" v-if="this.$frontmatter.disqus" class="content" />
-    <!-- <template v-if="!$page.frontmatter.disableDisqus" #page-bottom>
-      <Disqus />
-    </template>-->
   </ParentLayout>
 </template>
 
 <script>
 import ParentLayout from "@parent-theme/layouts/Layout";
+import Disqus from "../components/Disqus";
 
 export default {
   components: {
-    ParentLayout
+    ParentLayout,
+    Disqus,
   },
-  watch: {
-    $route(to, from) {
-      if (to.path !== from.path) {
-        if (typeof window !== "undefined" && window.DISQUS) {
-          window.DISQUS.reset({ reload: true });
-        }
-      }
-    }
-  }
+  // watch: {
+  //   $route(to, from) {
+  //     if (to.path !== from.path) {
+  //       if (typeof window !== "undefined" && window.DISQUS) {
+  //         window.DISQUS.reset({ reload: true });
+  //       }
+  //     }
+  //   },
+  // },
 };
 </script>
 
