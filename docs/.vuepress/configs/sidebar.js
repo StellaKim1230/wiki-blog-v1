@@ -8,6 +8,12 @@ const sidebarConfig = [
       ['/Programming/02.recursion', 'Recursion'],
     ],
   },
+  {
+    title: 'Algorithm',
+    children: [
+      ['/Algorithm/01.trie', 'Trie'],
+    ],
+  },
   // {
   //   title: 'Book reports',
   //   children: [['/BookReport/소프트웨어장인', '소프트웨어장인']],
