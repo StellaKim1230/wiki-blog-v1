@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "flow-bin": "^0.93.0",
-    "vuepress": "^1.2.0"
+    "vuepress": "1.7.1"
   },
   "main": "theme/Layout"
 }
