@@ -90,7 +90,14 @@ arr.filter = (value) => value < 3 // [1, 2]
 
 filter는 3 미만의 숫자만 골라내 새로운 배열로 리턴합니다.
 
-![텍스트](./assets/images/map-reduce-filter.jpg 'map-reduce-filter')
+<center>
+  <figure>
+    <img src="https://user-images.githubusercontent.com/22426851/100036070-d323f380-2e42-11eb-85a3-048d92cb51f7.png" alt="map filter reduce">
+    <figcaption style="font-size: 14px;">
+      <a href="https://www.reddit.com/r/learnjavascript/comments/fxpqkw/map_vs_filter_vs_reduce/" target="_blank" rel="noopener noreferrer">이미지 출처</a>
+    </figcaption>
+  </figure>
+</center>
 
 처음에는 위 이미지만 보고 이해하기가 어려웠습니다.
 이 개념들을 이해시키기 위해서 인프런에서 [유인동님의 함수형 프로그래밍 강의](https://www.inflearn.com/course/%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)를 들었습니다. 그리고 vue.js와 더 친해지기 위해서 vue.js2 Cookbook책을 보면 A to Z 까지 따라해봤고, 장기효 강사님의 세미나도 열릴때마다 가서 들었습니다.
