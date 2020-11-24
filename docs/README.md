@@ -19,6 +19,7 @@ SI에서 개발을 시작하였지만, 지금은 FE개발자로 일을 하고 �
 - Jul 2020 ~ Sotfware engineer at Cobalt.
 
   - [케이플](https://caple.ai/)
+  - [케이플 디자인 시스템](https://design.caple.ai/)
 
 - Feb 2019 ~ Jul 2020 Frontend engineer at Honbabin.
 

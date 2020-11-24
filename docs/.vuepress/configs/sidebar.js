@@ -1,5 +1,5 @@
 const sidebarConfig = [
-  ['/si-escape', 'SI 탈출'],
+  ['/si-escape', 'SI 탈출 스토리'],
   ['/2019-memoirs', '2019년 회고록'],
   {
     title: 'Programming',
