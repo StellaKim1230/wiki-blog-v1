@@ -14,10 +14,12 @@ const sidebarConfig = [
       ['/Algorithm/01.trie', 'Trie'],
     ],
   },
-  // {
-  //   title: 'Book reports',
-  //   children: [['/BookReport/소프트웨어장인', '소프트웨어장인']],
-  // },
+  {
+    title: 'Book reports',
+    children: [
+      ['/BookReport/01.interface-without-interface', '인터페이스 없는 인터페이스'],
+    ],
+  },
 ]
 
 module.exports = sidebarConfig
