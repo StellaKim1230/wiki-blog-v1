@@ -1,7 +1,12 @@
 const sidebarConfig = [
   ['/si-escape', 'SI 탈출 스토리'],
-  ['/2019-memoris', '2019년 회고록'],
-  // ['/2020-memoris', '2020년 회고록'],
+  {
+    title: '회고록',
+    children: [
+      ['/2019-memoris', '2019년 회고록'],
+      ['/2020-memoris', '2020년 회고록'],
+    ],
+  },
   {
     title: 'Programming',
     children: [
