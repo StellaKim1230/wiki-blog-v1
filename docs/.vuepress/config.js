@@ -2,7 +2,7 @@ const navConfig = require('./configs/nav')
 const sidebarConfig = require('./configs/sidebar')
 
 module.exports = {
-  title: "Stella's wiki",
+  title: "Stella's blog",
   description: "Frontend engineer Stella's Study Note",
   themeConfig: {
     nav: navConfig,
@@ -11,7 +11,7 @@ module.exports = {
   },
   plugins: {
     disqus: {
-      shortname: 'stella-wiki',
+      shortname: 'stella-blog',
     },
     '@vuepress/google-analytics': {
       ga: 'UA-151965597-1',
