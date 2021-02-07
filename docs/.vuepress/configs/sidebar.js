@@ -10,7 +10,6 @@ const sidebarConfig = [
   {
     title: 'Programming',
     children: [
-      // ['/Programming/01.description-react-structure', 'React Structure'],
       ['/Programming/02.recursion', 'Recursion'],
     ],
   },
@@ -27,6 +26,7 @@ const sidebarConfig = [
       ],
     ],
   },
+  ['/web-accessibility', '웹 접근성'],
 ]
 
 module.exports = sidebarConfig
