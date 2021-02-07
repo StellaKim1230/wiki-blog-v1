@@ -2,11 +2,11 @@
 title: 웹 접근성
 meta:
   - name: description
-    content: 웹 접근성
+    content: 웹 접근성이란 어떠한 사용자(장애인, 노인 등), 어떠한 기술환경에서도 사용자가 전문적인 능력 없이 웹 사이트에서 제공하는 모든 정보에 접근할 수 있도록 보장하는 것이다.
   - property: og:title
-    content: 웹 접근성
+    content: 웹 접근성에 대해서 소개한다.
   - property: og:description
-    content: 웹 접근성
+    content: 웹 접근성이란 어떠한 사용자(장애인, 노인 등), 어떠한 기술환경에서도 사용자가 전문적인 능력 없이 웹 사이트에서 제공하는 모든 정보에 접근할 수 있도록 보장하는 것이다.
 ---
 
 # 웹 접근성
