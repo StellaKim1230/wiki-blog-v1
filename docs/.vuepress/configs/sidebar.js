@@ -24,9 +24,12 @@ const sidebarConfig = [
         '/BookReport/01.interface-without-interface',
         '인터페이스 없는 인터페이스',
       ],
+      [
+        '/BookReport/02.web-accessibility',
+        '웹 접근성 프로젝트 시작하기',
+      ],
     ],
-  },
-  ['/web-accessibility', '웹 접근성'],
+  }
 ]
 
 module.exports = sidebarConfig
