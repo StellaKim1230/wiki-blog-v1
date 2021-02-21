@@ -57,6 +57,8 @@ OAuth2.0에서는 하나로 통일되었던 인증방식이 다양한 인증방�
     </figure>
   </center>
 
+Auth code는 일회성으로 Access Token, Refresh Token이 발급 완료되면, Authorization Server에서 보안상 Auth Code를 폐기한다. 처음에 Access Token을 다시 발급 받으려면 Auth Code부터 다시 발급받아야 한다.
+
 Resource Server에는 클라이언트에서 직접 접근할지, 서버에서 접근할지는 아키텍처 구성에 따라 달라진다. 
 필자가 경험했던 방식은, 서버에서 Resource server로 접근해서 사용자의 정보를 DB에 저장하고, 클라이언트에 정보를 전달해주는 방식으로 사용했었다.
 
