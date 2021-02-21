@@ -29,7 +29,8 @@ const sidebarConfig = [
         '웹 접근성 프로젝트 시작하기',
       ],
     ],
-  }
+  },
+  ['/oauth2.0', 'OAuth2.0']
 ]
 
 module.exports = sidebarConfig
