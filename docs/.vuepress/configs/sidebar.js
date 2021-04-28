@@ -9,9 +9,11 @@ const sidebarConfig = [
   },
   {
     title: 'Programming',
-    children: [
-      ['/Programming/02.recursion', 'Recursion'],
-    ],
+    children: [['/Programming/02.recursion', 'Recursion']],
+  },
+  {
+    title: 'CSS',
+    children: [['/CSS/01.flex-layout', 'Flex Layout']],
   },
   {
     title: 'Algorithm',
@@ -24,13 +26,10 @@ const sidebarConfig = [
         '/BookReport/01.interface-without-interface',
         '인터페이스 없는 인터페이스',
       ],
-      [
-        '/BookReport/02.web-accessibility',
-        '웹 접근성 프로젝트 시작하기',
-      ],
+      ['/BookReport/02.web-accessibility', '웹 접근성 프로젝트 시작하기'],
     ],
   },
-  ['/oauth2.0', 'OAuth2.0']
-]
+  ['/oauth2.0', 'OAuth2.0'],
+];
 
-module.exports = sidebarConfig
+module.exports = sidebarConfig;
