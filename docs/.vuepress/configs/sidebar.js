@@ -13,7 +13,7 @@ const sidebarConfig = [
   },
   {
     title: 'CSS',
-    children: [['/CSS/01.flex-layout', 'Flex Layout']],
+    children: [['/CSS/01.flex', 'Flexbox']],
   },
   {
     title: 'Algorithm',
@@ -30,6 +30,6 @@ const sidebarConfig = [
     ],
   },
   ['/oauth2.0', 'OAuth2.0'],
-];
+]
 
-module.exports = sidebarConfig;
+module.exports = sidebarConfig
